@@ -32,7 +32,23 @@ jobs:
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
         user: __token__
-        password: ${{ secrets.SLACK_TOKEN }}
+        password: ${{ secrets.PYPI_API_TOKEN }}}
+    - name: Pull request labeler
+
+      on: [ token ]
+
+      permissions:
+        contents: read
+        pull-requests: write
+
+      jobs:
+        triage:
+          runs-on: ubuntu-latest
+          steps:
+            - uses: actions/labeler@v2
+              with:
+                repo-token: ${{ secrets.SLACK_TOKEN }}
+                
     - name: Run Rss reader
       run: |
         python "main.py"
