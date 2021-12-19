@@ -11,7 +11,7 @@
 5. **.gitignore** : env 파일을 숨기기 위함.
 
 ## 사용언어
-Python
+* Python
 
 ## 사용 라이브러리
 * feedparser
