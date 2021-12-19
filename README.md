@@ -10,6 +10,9 @@
 4. **requirements.txt** : github actions을 사용하여 실행할 수 있도록 적어둔 필수 라이브러리
 5. **.gitignore** : env 파일을 숨기기 위함.
 
+## [Ver.1](https://github.com/rysdid17/techblog_slack) 과 다른 점
+* [Ver.1](https://github.com/rysdid17/techblog_slack)에서 포스팅 날짜를 확인하기 위해서 모든 사이트의 html을 직접 확인하던 문제점을 **RSS** 라는 정해진 규격을 이용하여 해결
+
 ## 사용언어
 * Python
 
@@ -20,8 +23,8 @@
 * datetime
 * dotenv
 
-## Ver.1과 다른 점
-* Ver.1에서 포스팅 날짜를 확인하기 위해서 모든 사이트의 html을 직접 확인하던 문제점을 **RSS** 라는 정해진 규격을 이용하여 해결
+## 기간
+* 2021.11 ~ 2021.12
 
 ## 한계
 * 이미 Slack에는 RSS 사이트를 등록하면 업데이트 상황을 알려주는 어플이 존재했다.
