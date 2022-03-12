@@ -1,9 +1,10 @@
-import post_message
 import os
-from datetime import datetime
-import url_list
+from datetime import date, datetime
 from dotenv import load_dotenv
+import url_list
+import post_message
 import get_links
+import make_rss_date
 
 load_dotenv(verbose=True)
 # 토큰(env 파일로 저장)
@@ -14,7 +15,7 @@ channel = '#chattest'
 url_list = url_list.urlList
 
 link_list = []
-today = datetime.now().strftime('%Y%m%d')
+today = make_rss_date.make_today()
 
 if __name__ == "__main__":
     # 기술블로그에서 글 정보 가져오기
