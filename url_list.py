@@ -12,7 +12,6 @@ urlList = ['https://techblog.woowahan.com/feed/', #우아한 형제들
             'https://slack.engineering/feed/', #슬랙
             'https://technology.riotgames.com/news/feed', #라이엇
             'https://tech.ebayinc.com/rss', #이베이
-            'https://blog.twitter.com/engineering/en_us/blog.rss', #트위터
             'https://eng.uber.com/feed/', #우버
             'https://engineering.atspotify.com/feed/', #스포티파이
             'https://dropbox.tech/feed' # 드롭박스
