@@ -7,7 +7,6 @@ urlList = ['https://techblog.woowahan.com/feed/', #우아한 형제들
             'https://www.ridicorp.com/story-category/tech-blog/feed/', #리디
             'https://netflixtechblog.com/feed', #넷플릭스
             'https://engineering.fb.com/feed/', #페이스북
-            'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=-865343814338114579&size=25', #MS
             'https://engineering.linkedin.com/blog.rss.html', #링크드인
             'https://slack.engineering/feed/', #슬랙
             'https://technology.riotgames.com/news/feed', #라이엇
