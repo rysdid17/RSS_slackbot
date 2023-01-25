@@ -2,7 +2,8 @@ name: Run RSS slack
 
 on:
   schedule:
-    - cron : '59 14 * * *'
+  - cron : '*/5 * * * *'
+  # - cron : '59 14 * * *'
 
 jobs:
   deploy:
